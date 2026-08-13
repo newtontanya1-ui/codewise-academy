@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Exam | CodeWise Academy</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef3f8;
+    color: #1f2937;
+  }
+
+  header {
+    background: #0f3d67;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 34px;
+  }
+
+  header p {
+    margin-top: 8px;
+    font-size: 18px;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 20px;
+  }
+
+  .exam-box {
+    background: white;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+  }
+
+  .exam-box h2 {
+    text-align: center;
+    color: #0f3d67;
+    font-size: 30px;
+    margin-top: 0;
+  }
+
+  .exam-box > p {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .question {
+    background: #f8fafc;
+    border: 1px solid #dbe4ee;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+  }
+
+  .question h3 {
+    color: #0f3d67;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+
+  label {
+    display: block;
+    background: white;
+    border: 1px solid #d7dee7;
+    padding: 12px 14px;
+    margin: 9px 0;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  label:hover {
+    background: #eef5fb;
+  }
+
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    margin: 30px auto 10px;
+    background: #0f3d67;
+    color: white;
+    border: none;
+    padding: 15px 22px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #17598f;
+  }
+
+  #result {
+    margin-top: 25px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .home-btn {
+    display: block;
+    width: fit-content;
+    margin: 25px auto 0;
+    background: #0f3d67;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+
+  .home-btn:hover {
+    background: #17598f;
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+
+    .exam-box {
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 28px;
+    }
+
+    .question {
+      padding: 16px;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>CodeWise Academy</h1>
+  <p>Medical Coding & Billing Final Exam</p>
+</header>
+
+<div class="container">
+  <div class="exam-box">
+
+    <h2>Final Exam</h2>
+    <p>Select the best answer for each question, then click <strong>Submit Final Exam</strong>.</p>
+
+    <form id="finalExam">
+
+      <div class="question">
+        <h3>1. What is ICD-10-CM mainly used to report?</h3>
+        <label><input type="radio" name="q1" value="a"> Medical supplies</label>
+        <label><input type="radio" name="q1" value="b"> Diagnoses and health conditions</label>
+        <label><input type="radio" name="q1" value="c"> Insurance payments</label>
+        <label><input type="radio" name="q1" value="d"> Provider addresses</label>
+      </div>
+
+      <div class="question">
+        <h3>2. What should a coder do after finding an ICD-10-CM code in the Alphabetic Index?</h3>
+        <label><input type="radio" name="q2" value="a"> Submit the claim immediately</label>
+        <label><input type="radio" name="q2" value="b"> Verify the code in the Tabular List</label>
+        <label><input type="radio" name="q2" value="c"> Add a CPT modifier</label>
+        <label><input type="radio" name="q2" value="d"> Contact the insurance company</label>
+      </div>
+
+      <div class="question">
+        <h3>3. CPT codes are mainly used to report:</h3>
+        <label><input type="radio" name="q3" value="a"> Procedures and services</label>
+        <label><input type="radio" name="q3" value="b"> Diagnoses only</label>
+        <label><input type="radio" name="q3" value="c"> Patient addresses</label>
+        <label><input type="radio" name="q3" value="d"> Insurance premiums</label>
+      </div>
+
+      <div class="question">
+        <h3>4. Which CPT modifier commonly indicates a bilateral procedure?</h3>
+        <label><input type="radio" name="q4" value="a"> 25</label>
+        <label><input type="radio" name="q4" value="b"> 50</label>
+        <label><input type="radio" name="q4" value="c"> 59</label>
+        <label><input type="radio" name="q4" value="d"> 76</label>
+      </div>
+
+      <div class="question">
+        <h3>5. HCPCS Level II codes are commonly used for:</h3>
+        <label><input type="radio" name="q5" value="a"> Supplies, equipment, and medications</label>
+        <label><input type="radio" name="q5" value="b"> Diagnoses only</label>
+        <label><input type="radio" name="q5" value="c"> Patient registration only</label>
+        <label><input type="radio" name="q5" value="d"> Medical records only</label>
+      </div>
+
+      <div class="question">
+        <h3>6. Which HCPCS code group commonly represents drugs?</h3>
+        <label><input type="radio" name="q6" value="a"> E codes</label>
+        <label><input type="radio" name="q6" value="b"> J codes</label>
+        <label><input type="radio" name="q6" value="c"> L codes</label>
+        <label><input type="radio" name="q6" value="d"> A codes</label>
+      </div>
+
+      <div class="question">
+        <h3>7. Which claim form is commonly used for professional or physician services?</h3>
+        <label><input type="radio" name="q7" value="a"> UB-04</label>
+        <label><input type="radio" name="q7" value="b"> CMS-1500</label>
+        <label><input type="radio" name="q7" value="c"> W-2</label>
+        <label><input type="radio" name="q7" value="d"> 1099</label>
+      </div>
+
+      <div class="question">
+        <h3>8. A deductible is:</h3>
+        <label><input type="radio" name="q8" value="a"> A fixed office visit fee only</label>
+        <label><input type="radio" name="q8" value="b"> The amount a patient pays before certain insurance benefits begin</label>
+        <label><input type="radio" name="q8" value="c"> The provider's salary</label>
+        <label><input type="radio" name="q8" value="d"> A diagnosis code</label>
+      </div>
+
+      <div class="question">
+        <h3>9. What should be done first when a claim is denied?</h3>
+        <label><input type="radio" name="q9" value="a"> Ignore it</label>
+        <label><input type="radio" name="q9" value="b"> Review the denial reason</label>
+        <label><input type="radio" name="q9" value="c"> Delete the patient's account</label>
+        <label><input type="radio" name="q9" value="d"> Change every code</label>
+      </div>
+
+      <div class="question">
+        <h3>10. Why is accurate documentation important?</h3>
+        <label><input type="radio" name="q10" value="a"> It supports correct coding and billing</label>
+        <label><input type="radio" name="q10" value="b"> It makes the website look better</label>
+        <label><input type="radio" name="q10" value="c"> It replaces insurance coverage</label>
+        <label><input type="radio" name="q10" value="d"> It removes the need for coding</label>
+      </div>
+
+      <button type="button" onclick="gradeExam()">Submit Final Exam</button>
+
+      <div id="result"></div>
+
+    </form>
+
+    <a class="home-btn" href="index.html">Back to Home</a>
+
+  </div>
+</div>
+
+<script>
+  function gradeExam() {
+    const answers = {
+      q1: "b",
+      q2: "b",
+      q3: "a",
+      q4: "b",
+      q5: "a",
+      q6: "b",
+      q7: "b",
+      q8: "b",
+      q9: "b",
+      q10: "a"
+    };
+
+    let score = 0;
+    let answered = 0;
+
+    for (let question in answers) {
+      const selected = document.querySelector(
+        'input[name="' + question + '"]:checked'
+      );
+
+      if (selected) {
+        answered++;
+
+        if (selected.value === answers[question]) {
+          score++;
+        }
+      }
+    }
+
+    const result = document.getElementById("result");
+
+    if (answered < 10) {
+      result.innerHTML =
+        "Please answer all 10 questions before submitting.";
+      return;
+    }
+
+    const percent = score * 10;
+
+    if (percent >= 70) {
+      result.innerHTML =
+        "Congratulations! You passed with " +
+        score +
+        "/10 (" +
+        percent +
+        "%).";
+    } else {
+      result.innerHTML =
+        "Your score is " +
+        score +
+        "/10 (" +
+        percent +
+        "%). Review the lessons and try again.";
+    }
+  }
+</script>
+
+</body>
+</html>

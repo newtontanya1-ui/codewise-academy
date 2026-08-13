@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeWise Academy | Medical Billing & Coding</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f9ff;
+      color: #172033;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #102a43;
+      color: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 22px;
+    }
+
+    .hero {
+      min-height: 520px;
+      padding: 90px 8%;
+      background: linear-gradient(135deg, #102a43, #176b87);
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-content {
+      max-width: 720px;
+    }
+
+    .hero h1 {
+      font-size: 52px;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #ffd166;
+      color: #102a43;
+      padding: 14px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 70px 8%;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 12px;
+    }
+
+    .section-intro {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 40px;
+      color: #52606d;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,.08);
+    }
+
+    .card h3 {
+      color: #176b87;
+      margin-bottom: 10px;
+    }
+
+    .practice {
+      background: #eaf4ff;
+    }
+
+    .cta {
+      text-align: center;
+      background: #102a43;
+      color: white;
+    }
+
+    .cta p {
+      margin: 15px auto 25px;
+      max-width: 650px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #081c2c;
+      color: #d9e2ec;
+    }
+
+    @media (max-width: 650px) {
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      nav {
+        margin-top: 12px;
+      }
+
+      nav a {
+        margin: 0 12px 0 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">CodeWise Academy</div>
+
+    <nav>
+      <a href="#learn">Learn</a>
+      <a href="#practice">Practice</a>
+      <a href="#resources">Resources</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Learn Medical Billing & Coding With Confidence</h1>
+
+        <p>
+          Straightforward lessons, coding practice, study tools, and
+          real-world examples designed to help you build your skills
+          one step at a time.
+        </p>
+
+        <a class="button" href="#learn">Start Learning</a>
+      </div>
+    </section>
+
+    <section id="learn">
+      <h2>Start Your Coding Journey</h2>
+
+      <p class="section-intro">
+        Build a strong foundation before moving into more advanced
+        medical billing and coding topics.
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>ICD-10-CM Foundations</h3>
+          <a class="button" href="icd10.html">start icd-10-cm</a>
+          <p>
+            Learn diagnosis coding, conventions, guidelines,
+            sequencing, and how to find the correct code.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>CPT Coding</h3>
+          <p>
+            Understand procedure coding and learn how documentation
+            supports accurate CPT code selection.
+          </p>
+        <a class="button"href="cpt.html">start cpt coding</a>
+
+        </div>
+        <div class="card">
+            <h3>lesson 1: introduction to medical coding</h3>
+            <p>learn the basics of medical coding and the three main coding system.</p>
+            <a class="button" href="lesson1.html">start lesson1</a>
+</div>
+
+        <div class="card">
+          <h3>HCPCS Level II</h3>
+          <p>
+            Learn about supplies, medications, equipment, services,
+            and other HCPCS Level II coding concepts.
+          </p>
+          <a class="button href="hcpcs.html">start hcpcs level II</a>
+        </div>
+
+        <div class="card">
+          <h3>Medical Billing</h3>
+          <p>
+            Explore claims, insurance, reimbursement, medical
+            necessity, and the billing process.
+          </p>
+          <a class="button"href="billing.html">start medical billing</a>
+        </div>
+      </div>
+    </section>
+
+<section class="practice" id="practice">
+
+    <h2>Practice Your Skills</h2>
+
+    <p>
+        Build confidence with practice questions designed
+        to reinforce what you learn in each CodeWise Academy course.
+    </p>
+
+    <div class="practice-grid">
+
+        <div class="practice-card">
+            <h3>ICD-10-CM Practice</h3>
+            <p>Practice diagnosis coding concepts and guidelines.</p>
+            <a href="icd10practice.html">Start ICD-10-CM Practice →</a>
+        </div>
+
+        <div class="practice-card">
+            <h3>CPT Practice</h3>
+            <p>Practice procedure coding and CPT concepts.</p>
+            <a href="cptpractice.html">Start CPT Practice →</a>
+        </div>
+
+        <div class="practice-card">
+            <h3>HCPCS Level II Practice</h3>
+            <p>Practice supplies, services, modifiers, and HCPCS concepts.</p>
+            <a href="hcpcspractice.html">Start HCPCS Practice →</a>
+        </div>
+
+        <div class="practice-card">
+            <h3>Medical Billing Practice</h3>
+            <p>Practice claims, insurance, denials, and billing concepts.</p>
+            <a href="billingpractice.html">Start Billing Practice →</a>
+        </div>
+
+    </div>
+
+</section>    
+     
+<section class="why-codewise" id="about">
+
+    <h2>Why CodeWise Academy?</h2>
+
+    <p>
+        CodeWise Academy is designed to help you build
+        medical coding and billing knowledge step by step.
+    </p>
+<div class="features-grid">
+  
+    
+        <div class="feature-card">
+            <h3>📚 Learn</h3>
+            <p>
+                Work through easy-to-follow lessons covering
+                ICD-10-CM, CPT, HCPCS Level II, and Medical Billing.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>✏️ Practice</h3>
+            <p>
+                Test what you learn with practice questions
+                and course practice tests.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🎯 Build Confidence</h3>
+            <p>
+                Strengthen your understanding one lesson
+                at a time and keep building your skills.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+      
+        
+
+
+      <p class="section-intro">
+        Helpful tools will be added as CodeWise Academy grows,
+        including study guides, flashcards, worksheets, and more.
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Study Guides</h3>
+          <p>Easy-to-follow notes for important coding topics.</p>
+          <a href="studyguides.html" class="tool-btn">open study guides</a>
+        
+
+        <div class="card">
+          <h3>Flashcards</h3>
+          <p>Quick review tools for terminology, guidelines, and concepts.</p>
+        </div>
+
+        <div class="card">
+          <h3>Worksheets</h3>
+          <p>Hands-on activities to strengthen your coding skills.</p>
+        </div>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Exam | CodeWise Academy</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f8fc;
+      color: #1f2937;
+    }
+
+    header {
+      background: #0f3d67;
+      color: white;
+      padding: 22px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .exam-box {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .question {
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .question h3 {
+      color: #0f3d67;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0;
+      line-height: 1.5;
+    }
+
+    button {
+      background: #0f3d67;
+      color: white;
+      border: none;
+      padding: 14px 22px;
+      border-radius: 7px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #17598f;
+    }
+
+    #result {
+      margin-top: 25px;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .home-btn {
+      display: inline-block;
+      margin-top: 20px;
+      background: #0f3d67;
+      color: white;
+      padding: 12px 18px;
+      text-decoration: none;
+      border-radius: 7px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>CodeWise Academy</h1>
+  <p>Medical Coding & Billing Final Exam</p>
+</header>
+
+<div class="container final-exam-container">
+  <div class="exam-box final-exam-box">
+
+    <h2>Final Exam</h2>
+    <p>Select the best answer for each question, then click <strong>Submit Final Exam</strong>.</p>
+
+    <form id="finalExam">
+
+      <div class="question">
+        <h3>1. What is ICD-10-CM mainly used to report?</h3>
+        <label><input type="radio" name="q1" value="a"> Medical supplies</label>
+        <label><input type="radio" name="q1" value="b"> Diagnoses and health conditions</label>
+        <label><input type="radio" name="q1" value="c"> Insurance payments</label>
+        <label><input type="radio" name="q1" value="d"> Provider addresses</label>
+      </div>
+
+      <div class="question">
+        <h3>2. What should a coder do after finding an ICD-10-CM code in the Alphabetic Index?</h3>
+        <label><input type="radio" name="q2" value="a"> Submit the claim immediately</label>
+        <label><input type="radio" name="q2" value="b"> Verify the code in the Tabular List</label>
+        <label><input type="radio" name="q2" value="c"> Add a CPT modifier</label>
+        <label><input type="radio" name="q2" value="d"> Contact the insurance company</label>
+      </div>
+
+      <div class="question">
+        <h3>3. CPT codes are mainly used to report:</h3>
+        <label><input type="radio" name="q3" value="a"> Procedures and services</label>
+        <label><input type="radio" name="q3" value="b"> Diagnoses only</label>
+        <label><input type="radio" name="q3" value="c"> Patient addresses</label>
+        <label><input type="radio" name="q3" value="d"> Insurance premiums</label>
+      </div>
+
+      <div class="question">
+        <h3>4. Which CPT modifier commonly indicates a bilateral procedure?</h3>
+        <label><input type="radio" name="q4" value="a"> 25</label>
+        <label><input type="radio" name="q4" value="b"> 50</label>
+        <label><input type="radio" name="q4" value="c"> 59</label>
+        <label><input type="radio" name="q4" value="d"> 76</label>
+      </div>
+
+      <div class="question">
+        <h3>5. HCPCS Level II codes are commonly used for:</h3>
+        <label><input type="radio" name="q5" value="a"> Supplies, equipment, and medications</label>
+        <label><input type="radio" name="q5" value="b"> Diagnoses only</label>
+        <label><input type="radio" name="q5" value="c"> Patient registration only</label>
+        <label><input type="radio" name="q5" value="d"> Medical records only</label>
+      </div>
+
+      <div class="question">
+        <h3>6. Which HCPCS code group commonly represents drugs?</h3>
+        <label><input type="radio" name="q6" value="a"> E codes</label>
+        <label><input type="radio" name="q6" value="b"> J codes</label>
+        <label><input type="radio" name="q6" value="c"> L codes</label>
+        <label><input type="radio" name="q6" value="d"> A codes</label>
+      </div>
+
+      <div class="question">
+        <h3>7. Which claim form is commonly used for professional or physician services?</h3>
+        <label><input type="radio" name="q7" value="a"> UB-04</label>
+        <label><input type="radio" name="q7" value="b"> CMS-1500</label>
+        <label><input type="radio" name="q7" value="c"> W-2</label>
+        <label><input type="radio" name="q7" value="d"> 1099</label>
+      </div>
+
+      <div class="question">
+        <h3>8. A deductible is:</h3>
+        <label><input type="radio" name="q8" value="a"> A fixed office visit fee only</label>
+        <label><input type="radio" name="q8" value="b"> The amount a patient pays before certain insurance benefits begin</label>
+        <label><input type="radio" name="q8" value="c"> The provider's salary</label>
+        <label><input type="radio" name="q8" value="d"> A diagnosis code</label>
+      </div>
+
+      <div class="question">
+        <h3>9. What should be done first when a claim is denied?</h3>
+        <label><input type="radio" name="q9" value="a"> Ignore it</label>
+        <label><input type="radio" name="q9" value="b"> Review the denial reason</label>
+        <label><input type="radio" name="q9" value="c"> Delete the patient's account</label>
+        <label><input type="radio" name="q9" value="d"> Change every code</label>
+      </div>
+
+      <div class="question">
+        <h3>10. Why is accurate documentation important?</h3>
+        <label><input type="radio" name="q10" value="a"> It supports correct coding and billing</label>
+        <label><input type="radio" name="q10" value="b"> It makes the website look better</label>
+        <label><input type="radio" name="q10" value="c"> It replaces insurance coverage</label>
+        <label><input type="radio" name="q10" value="d"> It removes the need for coding</label>
+      </div>
+
+      <button type="button" onclick="gradeExam()">Submit Final Exam</button>
+
+      <div id="result"></div>
+
+    </form>
+
+    <a class="home-btn" href="index.html">Back to Home</a>
+
+  </div>
+</div>
+
+<script>
+  function gradeExam() {
+    const answers = {
+      q1: "b",
+      q2: "b",
+      q3: "a",
+      q4: "b",
+      q5: "a",
+      q6: "b",
+      q7: "b",
+      q8: "b",
+      q9: "b",
+      q10: "a"
+    };
+
+    let score = 0;
+    let answered = 0;
+
+    for (let question in answers) {
+      const selected = document.querySelector(
+        'input[name="' + question + '"]:checked'
+      );
+
+      if (selected) {
+        answered++;
+
+        if (selected.value === answers[question]) {
+          score++;
+        }
+      }
+    }
+
+    const result = document.getElementById("result");
+
+    if (answered < 10) {
+      result.innerHTML =
+        "Please answer all 10 questions before submitting.";
+      return;
+    }
+
+    const percent = score * 10;
+
+    if (percent >= 70) {
+      result.innerHTML =
+        "Congratulations! You passed with " +
+        score +
+        "/10 (" +
+        percent +
+        "%).";
+    } else {
+      result.innerHTML =
+        "Your score is " +
+        score +
+        "/10 (" +
+        percent +
+        "%). Review the lessons and try again.";
+    }
+  }
+</script>
+
+
+<
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Build Your Coding Confidence</h2>
+
+      <p>
+        CodeWise Academy is designed to make medical billing and
+        coding easier to understand, practice, and remember.
+      </p>
+
+      <a class="button" href="#learn">Explore the Lessons</a>
+    </section>
+  </main>

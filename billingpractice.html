@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Medical Billing Practice Test | CodeWise Academy</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f9ff;
+            color: #172033;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #123b70;
+            padding: 20px;
+        }
+
+        header a {
+            color: #ffd166;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: #169fc5;
+            color: white;
+            padding: 50px 30px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .test-box {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+        }
+
+        .question {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            padding: 7px 0;
+            cursor: pointer;
+        }
+
+        .button {
+            background: #f4a62a;
+            color: #172033;
+            padding: 14px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #results {
+            display: none;
+            background: #fff4cc;
+            padding: 25px;
+            margin-top: 25px;
+            border-radius: 12px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .complete-button {
+            display: inline-block;
+            background: #123b70;
+            color: white;
+            padding: 14px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 25px;
+            color: #123b70;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <a href="billing.html">← Back to Medical Billing Foundations</a>
+</header>
+
+<section class="hero">
+
+    <h1>Medical Billing Practice Test</h1>
+
+    <p>
+        Test what you learned in the CodeWise Academy
+        Medical Billing Foundations course.
+    </p>
+
+</section>
+
+<main>
+
+<form id="practiceTest">
+
+
+    <div class="test-box">
+
+        <p class="question">
+            1. What is one of the main purposes of medical billing?
+        </p>
+
+        <label>
+            <input type="radio" name="q1" value="a">
+            To diagnose patients
+        </label>
+
+        <label>
+            <input type="radio" name="q1" value="b">
+            To prepare, submit, and follow up on healthcare claims
+        </label>
+
+        <label>
+            <input type="radio" name="q1" value="c">
+            To prescribe medication
+        </label>
+
+    </div>
+
+
+    <div class="test-box">
+
+        <p class="question">
+            2. What is one of the first steps in the healthcare revenue cycle?
+        </p>
+
+        <label>
+            <input type="radio" name="q2" value="a">
+            Patient registration
+        </label>
+
+        <label>
+            <input type="radio" name="q2" value="b">
+            Claim appeal
+        </label>
+
+        <label>
+            <input type="radio" name="q2" value="c">
+            Payment posting
+        </label>
+
+    </div>
+
+
+    <div class="test-box">
+
+        <p class="question">
+            3. Why is insurance verification important?
+        </p>
+
+        <label>
+            <input type="radio" name="q3" value="a">
+            It guarantees every claim will be paid
+        </label>
+
+        <label>
+            <input type="radio" name="q3" value="b">
+            It helps confirm insurance and coverage information
+        </label>
+
+        <label>
+            <input type="radio" name="q3" value="c">
+            It replaces medical coding
+        </label>
+
+    </div>
+
+
+    <div class="test-box">
+
+        <p class="question">
+            4. Which form is commonly associated with professional claims?
+        </p>
+
+        <label>
+            <input type="radio" name="q4" value="a">
+            UB-04
+        </label>
+
+        <label>
+            <input type="radio" name="q4" value="b">
+            CMS-1500
+        </label>
+
+        <label>
+            <input type="radio" name="q4" value="c">
+            W-2
+        </label>
+
+    </div>
+
+
+    <div class="test-box">
+
+        <p class="question">
+            5. Which form is commonly associated with institutional claims?
+        </p>
+
+        <label>
+            <input type="radio" name="q5" value="a">
+            CMS-1500
+        </label>
+
+        <label>
+            <input type="radio" name="q5" value="b">
+            UB-04
+        </label>
+
+        <label>
+            <input type="radio" name="q5" value="c">
+            W-9
+        </label>
+
+    </div>
+
+
+    <div class="test-box">
+
+        <p class="question">
+            6. What is claim adjudication?
+        </p>
+
+        <label>
+            <input type="radio" name="q6" value="a">
+            The process a payer uses to review and process a claim
+        </label>
+
+        <label>
+            <input type="radio" name="q6" value="b">
+            The process of registering a new patient
+        </label>
+
+        <label>
+            <input type="radio" name="q6" value="c">
+            The process of scheduling an appointment
+        </label>
+
+    </div>
+
+
+    <div class="test-box">
+
+        <p class="question">
+            7. What does EOB stand for?
+        </p>
+
+        <label>
+            <input type="radio" name="q7" value="a">
+            Electronic Office Billing
+        </label>
+
+        <label>
+            <input type="radio" name="q7" value="b">
+            Explanation of Benefits
+        </label>
+
+        <label>
+            <input type="radio" name="q7" value="c">
+            Explanation of Billing
+        </label>
+
+    </div>
+
+
+    <div class="test-box">
+
+        <p class="question">
+            8. What does ERA stand for?
+        </p>
+
+        <label>
+            <input type="radio" name="q8" value="a">
+            Electronic Remittance Advice
+        </label>
+
+        <label>
+            <input type="radio" name="q8" value="b">
+            Electronic Registration Account
+        </label>
+
+        <label>
+            <input type="radio" name="q8" value="c">
+            Emergency Reimbursement Authorization
+        </label>
+
+    </div>
+
+
+    <div class="test-box">
+
+        <p class="question">
+            9. Which statement best describes a rejected claim?
+        </p>
+
+        <label>
+            <input type="radio" name="q9" value="a">
+            It was paid in full
+        </label>
+
+        <label>
+            <input type="radio" name="q9" value="b">
+            It generally contains an error that prevents it from being accepted for processing
+        </label>
+
+        <label>
+            <input type="radio" name="q9" value="c">
+            It always becomes patient responsibility
+        </label>
+
+    </div>
+
+
+    <div class="test-box">
+
+        <p class="question">
+            10. What does A/R stand for in medical billing?
+        </p>
+
+        <label>
+            <input type="radio" name="q10" value="a">
+            Account Review
+        </label>
+
+        <label>
+            <input type="radio" name="q10" value="b">
+            Accounts Receivable
+        </label>
+
+        <label>
+            <input type="radio" name="q10" value="c">
+            Authorization Request
+        </label>
+
+    </div>
+
+
+    <button
+        class="button"
+        type="button"
+        onclick="gradeTest()"
+    >
+        Grade My Test
+    </button>
+
+</form>
+
+
+<div id="results"></div>
+
+
+<a class="back-button" href="billing.html">
+    ← Return to Medical Billing Foundations
+</a>
+
+</main>
+
+
+<script>
+
+function gradeTest() {
+
+    const answers = {
+        q1: "b",
+        q2: "a",
+        q3: "b",
+        q4: "b",
+        q5: "b",
+        q6: "a",
+        q7: "b",
+        q8: "a",
+        q9: "b",
+        q10: "b"
+    };
+
+    let score = 0;
+    let unanswered = 0;
+
+    for (let question in answers) {
+
+        const selected = document.querySelector(
+            'input[name="' + question + '"]:checked'
+        );
+
+        if (!selected) {
+
+            unanswered++;
+
+        } else if (selected.value === answers[question]) {
+
+            score++;
+
+        }
+
+    }
+
+
+    const results = document.getElementById("results");
+
+    results.style.display = "block";
+
+
+    if (unanswered > 0) {
+
+        results.innerHTML =
+            "You still have " +
+            unanswered +
+            " unanswered question(s).<br><br>" +
+            "Current score: " +
+            score +
+            " out of 10.";
+
+    } else {
+
+        const percent = score * 10;
+
+        if (percent >= 80) {
+
+            results.innerHTML =
+                "Great job! 🎉<br><br>" +
+                "Your score is " +
+                score +
+                " out of 10 (" +
+                percent +
+                "%).<br><br>" +
+                "You passed the Medical Billing Practice Test!" +
+                "<br><br>" +
+                '<a class="complete-button" href="billingcomplete.html">' +
+                "Complete Medical Billing Foundations →" +
+                "</a>";
+
+        } else {
+
+            results.innerHTML =
+                "Your score is " +
+                score +
+                " out of 10 (" +
+                percent +
+                "%).<br><br>" +
+                "Review the Medical Billing lessons and try again.";
+
+        }
+
+    }
+
+
+    results.scrollIntoView({
+        behavior: "smooth"
+    });
+
+}
+
+</script>
+
+
+</body>
+
+</html>

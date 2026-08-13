@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Guides | CodeWise Academy</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #24344d;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #234a7c;
+      color: white;
+      padding: 35px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 17px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .intro h2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .guides {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .guide-card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    }
+
+    .guide-card h3 {
+      color: #234a7c;
+      margin-bottom: 10px;
+    }
+
+    .guide-card p {
+      margin-bottom: 18px;
+    }
+
+    .guide-card a {
+      display: inline-block;
+      text-decoration: none;
+      background: #f4c66a;
+      color: #24344d;
+      padding: 10px 16px;
+      border-radius: 7px;
+      font-weight: bold;
+    }
+
+    .guide-card a:hover {
+      opacity: 0.85;
+    }
+
+    .back-home {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .back-home a {
+      color: #234a7c;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #234a7c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>📚 CodeWise Study Guides</h1>
+    <p>Quick-reference guides to help you learn, review, and remember important coding concepts.</p>
+  </header>
+
+  <main class="container">
+
+    <section class="intro">
+      <h2>Choose a Study Guide</h2>
+      <p>
+        Review the major areas of medical coding and billing at your own pace.
+      </p>
+    </section>
+
+    <section class="guides">
+
+      <div class="guide-card">
+        <h3>ICD-10-CM Study Guide</h3>
+        <p>
+          Review diagnosis coding, conventions, guidelines, sequencing,
+          and code selection.
+        </p>
+        <a href="icd10.html">Study ICD-10-CM →</a>
+      </div>
+
+      <div class="guide-card">
+        <h3>CPT Study Guide</h3>
+        <p>
+          Review procedure coding, CPT sections, documentation,
+          modifiers, and coding concepts.
+        </p>
+        <a href="cpt.html">Study CPT →</a>
+      </div>
+
+      <div class="guide-card">
+        <h3>HCPCS Level II Study Guide</h3>
+        <p>
+          Review supplies, medications, equipment, services,
+          and HCPCS Level II concepts.
+        </p>
+        <a href="hcpcs.html">Study HCPCS →</a>
+      </div>
+
+      <div class="guide-card">
+        <h3>Medical Billing Study Guide</h3>
+        <p>
+          Review claims, insurance terminology, reimbursement,
+          denials, and the billing process.
+        </p>
+        <a href="billing.html">Study Medical Billing →</a>
+      </div>
+
+    </section>
+
+    <div class="back-home">
+      <a href="index.html">← Back to CodeWise Academy Home</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2026 CodeWise Academy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
